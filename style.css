@@ -16,12 +16,10 @@ body{
   flex-direction: column;
 }
 
-.search{
-  width: 450px;
-  width: 450px;
-  border-radius: 20px;
-  height: 2.6em;
-  border: solid lightgray 1px;
+.search {
+    width: 400px;
+    border: 0px;
+    padding: 15px;
 }
 
 .buttons{
@@ -50,4 +48,20 @@ body{
 .buttons button:hover {
     color: #333;
     border: #c6c6c6 solid 1px;
+}
+
+.search-box {
+    width: 450px;
+    border-radius: 20px;
+    height: 2.6em;
+    display: flex;
+    justify-content: center;
+    border: solid lightgray 1px;
+    padding: 0 10px;
+}
+
+.search-box i {
+    display: flex;
+    align-items: center;
+    color: #5F6368;
 }
