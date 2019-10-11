@@ -3,9 +3,11 @@ body{
   display: flex;
   min-height: 100vh;
   justify-content: space-between;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
   color: #333;
 }
+
+
 
 #google-logo{
   max-width: 100%;
@@ -71,6 +73,25 @@ body{
     color: #5F6368;
 }
 
-footer{
-  padding: 20px;
+footer {
+  padding: 15px 30px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+  border-color: #f2f2f2;
+  font-size: 0.83rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  color: #5F6368;
+  text-decoration: none;
+}
+
+.footer-left a{
+  padding-right: 20px;
+}
+
+.footer-right a{
+  padding-left: 20px;
 }
