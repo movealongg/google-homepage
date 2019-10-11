@@ -2,3 +2,8 @@
   max-width: 100%;
   height: 120px;
 }
+
+.img-search{
+  display: flex;
+  justify-content: center;
+}
