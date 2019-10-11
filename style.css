@@ -8,12 +8,20 @@ body{
 }
 
 header{
-  padding: 15px 30px;
+  padding: 30px;
 }
 
 nav{
   display: flex;
   justify-content: space-between;
+}
+
+.nav-right a:last-child {
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 8px 12px;
+  background-color: #4486FA;
 }
 
 #google-logo{
@@ -98,9 +106,9 @@ header a, footer a {
 }
 
 .nav-left a, .footer-left a{
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .nav-right a, .footer-right a{
-  padding-left: 20px;
+  margin-left: 20px;
 }
