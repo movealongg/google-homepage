@@ -1,6 +1,10 @@
 body{
+  flex-direction: column;
   display: flex;
-  justify-content: center;
+  min-height: 100vh;
+  justify-content: space-between;
+  font-family: arial,sans-serif;
+  color: #333;
 }
 
 #google-logo{
@@ -58,10 +62,15 @@ body{
     justify-content: center;
     border: solid lightgray 1px;
     padding: 0 10px;
+    align-self: center;
 }
 
 .search-box i {
     display: flex;
     align-items: center;
     color: #5F6368;
+}
+
+footer{
+  padding: 20px;
 }
