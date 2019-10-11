@@ -7,10 +7,19 @@ body{
   color: #333;
 }
 
+header{
+  padding: 15px 30px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
 #google-logo{
   max-width: 100%;
   height: 120px;
-  padding: 200px 0 15px 0;
+  padding-bottom: 15px;
   align-self: center;
 }
 
@@ -18,6 +27,7 @@ body{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: -50px;
 }
 
 .search {
@@ -76,21 +86,21 @@ footer {
   background-color: #f2f2f2;
   color: #5F6368;
   border-color: #f2f2f2;
-  font-size: 0.83rem;
   display: flex;
   justify-content: space-between;
   border-top: solid #c6c6c6 1px;
 }
 
-footer a {
+header a, footer a {
   color: #5F6368;
   text-decoration: none;
+  font-size: 0.83rem;
 }
 
-.footer-left a{
+.nav-left a, .footer-left a{
   padding-right: 20px;
 }
 
-.footer-right a{
+.nav-right a, .footer-right a{
   padding-left: 20px;
 }
