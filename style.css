@@ -23,3 +23,31 @@ body{
   height: 2.6em;
   border: solid lightgray 1px;
 }
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+#google-search{
+  margin-right: 10px;
+}
+
+#lucky{
+  margin-left: 10px;
+}
+
+.buttons button {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border-color: #f2f2f2;
+    font-size: 0.92rem;
+}
+
+.buttons button:hover {
+    color: #333;
+    border: #c6c6c6 solid 1px;
+}
